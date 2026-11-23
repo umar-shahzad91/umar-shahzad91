@@ -35,8 +35,8 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=balouchkhan91umar-collab&show_icons=true&theme=tokyonight&border_radius=16" alt="GitHub stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=balouchkhan91umar-collab&layout=compact&theme=tokyonight&border_radius=16" alt="Top languages" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=umar-shahzad91&show_icons=true&theme=tokyonight&border_radius=16" alt="GitHub stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=umar-shahzad91&layout=compact&theme=tokyonight&border_radius=16" alt="Top languages" />
 </p>
 
 ---
@@ -46,7 +46,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/umarbalouch/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:Umarshahzadumar91@gmail.com"><img src="https://img.shields.io/badge/Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/balouchkhan91umar-collab"><img src="https://img.shields.io/badge/GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/umar-shahzad91"><img src="https://img.shields.io/badge/GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 <p align="center">
