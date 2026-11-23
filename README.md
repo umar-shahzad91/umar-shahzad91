@@ -5,7 +5,7 @@
 </p>
 
 <h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=600&lines=Hi+👋+I'm+Umar+Shahzad;Software+Engineer;.NET+%26+C%23+Developer;MERN+Stack+Developer;I+build+clean+and+scalable+apps" alt="Typing animation" />
+  <img src="./typing.svg" width="600" alt="Typing animation" />
 </h2>
 
 <p align="center">
