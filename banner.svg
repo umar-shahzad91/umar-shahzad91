@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Umar Shahzad, Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0b1020"/>
+      <stop offset="55%"  stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#67e8f9"/>
+      <stop offset="50%"  stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#f9a8d4"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity=".35"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity=".30"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity=".30"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1000" height="240" rx="22"/></clipPath>
+  </defs>
+
+  <style>
+    .name { font: 800 68px 'Segoe UI', Arial, sans-serif; fill: url(#name); animation: rise 1s ease both; }
+    .role { font: 600 22px 'Segoe UI', Arial, sans-serif; fill: #e2e8f0; letter-spacing: 6px; animation: rise 1s .25s ease both; }
+    .tags { font: 500 15px 'Segoe UI', Arial, sans-serif; fill: #94a3b8; letter-spacing: 3px; animation: rise 1s .5s ease both; }
+    .w1 { animation: slide 9s linear infinite; }
+    .w2 { animation: slide 14s linear infinite reverse; }
+    .p1 { animation: bob 5s ease-in-out infinite; }
+    .p2 { animation: bob 7s 1s ease-in-out infinite; }
+    .p3 { animation: bob 6s 2s ease-in-out infinite; }
+    @keyframes rise  { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-500px); } }
+    @keyframes bob   { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="240" fill="url(#bg)"/>
+
+    <!-- glowing particles -->
+    <circle class="p1" cx="120" cy="60"  r="5"  fill="#67e8f9" opacity=".6"/>
+    <circle class="p2" cx="880" cy="50"  r="7"  fill="#f9a8d4" opacity=".5"/>
+    <circle class="p3" cx="800" cy="130" r="4"  fill="#c4b5fd" opacity=".7"/>
+    <circle class="p2" cx="200" cy="140" r="3"  fill="#c4b5fd" opacity=".6"/>
+    <circle class="p1" cx="930" cy="150" r="3"  fill="#67e8f9" opacity=".6"/>
+
+    <!-- text -->
+    <text class="name" x="500" y="105" text-anchor="middle">Umar Shahzad</text>
+    <text class="role" x="500" y="147" text-anchor="middle">SOFTWARE ENGINEER</text>
+    <text class="tags" x="500" y="177" text-anchor="middle">.NET  •  C#  •  JAVASCRIPT  •  MERN STACK</text>
+
+    <!-- animated waves -->
+    <g class="w2"><path fill="url(#wave2)" d="M0 195 q125 -34 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V240 H0 Z"/></g>
+    <g class="w1"><path fill="url(#wave1)" d="M0 210 q125 -30 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V240 H0 Z"/></g>
+  </g>
+</svg>

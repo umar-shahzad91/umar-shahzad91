@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="50" viewBox="0 0 600 50" role="img" aria-label="Umar Shahzad, Software Engineer, .NET and C# Developer, MERN Stack Developer">
+  <defs>
+    <!-- one clip box per line; its width animates 0 -> full to create the typing effect -->
+    <clipPath id="c1"><rect x="0" y="0" height="50" width="0">
+      <animate attributeName="width" dur="15s" begin="0s" repeatCount="indefinite" values="0;600;600;0;0" keyTimes="0;0.10;0.18;0.19;1"/></rect></clipPath>
+    <clipPath id="c2"><rect x="0" y="0" height="50" width="0">
+      <animate attributeName="width" dur="15s" begin="3s" repeatCount="indefinite" values="0;600;600;0;0" keyTimes="0;0.10;0.18;0.19;1"/></rect></clipPath>
+    <clipPath id="c3"><rect x="0" y="0" height="50" width="0">
+      <animate attributeName="width" dur="15s" begin="6s" repeatCount="indefinite" values="0;600;600;0;0" keyTimes="0;0.10;0.18;0.19;1"/></rect></clipPath>
+    <clipPath id="c4"><rect x="0" y="0" height="50" width="0">
+      <animate attributeName="width" dur="15s" begin="9s" repeatCount="indefinite" values="0;600;600;0;0" keyTimes="0;0.10;0.18;0.19;1"/></rect></clipPath>
+    <clipPath id="c5"><rect x="0" y="0" height="50" width="0">
+      <animate attributeName="width" dur="15s" begin="12s" repeatCount="indefinite" values="0;600;600;0;0" keyTimes="0;0.10;0.18;0.19;1"/></rect></clipPath>
+  </defs>
+
+  <style>
+    text { font: 600 24px 'Courier New', Consolas, monospace; fill: #22d3ee; }
+  </style>
+
+  <!-- x values center each line (about 14.4px per character) -->
+  <g clip-path="url(#c1)"><text x="156" y="33">Hi, I'm Umar Shahzad</text></g>
+  <g clip-path="url(#c2)"><text x="178" y="33">Software Engineer</text></g>
+  <g clip-path="url(#c3)"><text x="163" y="33">.NET &amp; C# Developer</text></g>
+  <g clip-path="url(#c4)"><text x="156" y="33">MERN Stack Developer</text></g>
+  <g clip-path="url(#c5)"><text x="77"  y="33">I build clean and scalable apps</text></g>
+</svg>

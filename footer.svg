@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="90" viewBox="0 0 1000 90" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="60%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity=".35"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1000" height="90" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .t { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #e2e8f0; letter-spacing: 3px; }
+    .w { animation: slide 10s linear infinite; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-500px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g clip-path="url(#round)">
+    <rect width="1000" height="90" fill="url(#bg)"/>
+    <g class="w"><path fill="url(#w)" d="M0 60 q125 -30 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V90 H0 Z"/></g>
+    <text class="t" x="500" y="42" text-anchor="middle">THANKS FOR VISITING ✨</text>
+  </g>
+</svg>
